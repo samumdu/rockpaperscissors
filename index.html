@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="background-container">
+      <div>
+        <h1 class="title-computer">Computer´s choice</h1>
+        <div class="black-box">
+          <h1 class="choice winner"></h1>
+          <h1 class="choice computer"></h1>
+          <h1 class="choice players"></h1>
+        </div>
+      </div>
+      <div class="player-options">
+        <h1>Type in your option</h1>
+
+        <select class="player-option">
+          <option value="rock">Rock</option>
+          <option value="paper">Paper</option>
+          <option value="scissors">Scissors</option>
+        </select>
+
+        <button class="btn play">Play</button>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

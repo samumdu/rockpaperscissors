@@ -1,0 +1,28 @@
+.background-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.black-box {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  color: white;
+}
+
+.choice- {
+  color: white;
+}
+
+.play {
+  cursor: pointer;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 22px;
+  text-align: center;
+}
